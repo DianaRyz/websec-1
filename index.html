@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="input-container">
+            <input type="number" id="number1">
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" id="number2">
+        </div>
+        <button onclick="calculate()">подсчитать</button>
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html>
