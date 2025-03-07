@@ -6,19 +6,19 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="calculator">
+    <div class="container">
         <div class="input-container">
-            <input type="number" id="number1">
-            <select id="operator">
+            <input type="number" id="number1" class="style">
+            <select id="operator" class="style">
                 <option value="+">+</option>
                 <option value="-">-</option>
                 <option value="*">*</option>
                 <option value="/">/</option>
             </select>
-            <input type="number" id="number2">
+            <input type="number" id="number2" class="style">
         </div>
-        <button onclick="calculate()">подсчитать</button>
-        <div class="result" id="result"></div>
+        <button onclick="calculate()" class="style">подсчитать</button>
+        <div class="result style" id="result"></div>
     </div>
 </body>
 </html>
